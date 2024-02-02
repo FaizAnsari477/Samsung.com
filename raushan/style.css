@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+}
+
+.fast-navigation-item {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px; 
+    width: auto;     
+    padding: 0; 
+    list-style: none; 
+}
