@@ -124,7 +124,7 @@ main {
     display: flex;
     align-items: center;
 }
-div p {
+.buttons p {
     font-size: 0.9rem;
     text-decoration: 2px solid underline;
     margin-right: 40px;
@@ -164,21 +164,36 @@ div p {
 .heading-1 .menu_bar a:hover {
     color: #787976;
 }
-.heading-1 .menu_bar span {
-    text-decoration: underline;
+.heading-1 .menu_bar .line {
+    padding-bottom: 7px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    width: 10px;
 }
 
 /* Multiple Banner */
 
 .multiple_banners {
+    border: 2px solid red;
     margin-top: 30px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.multiple_banners {
+}
+/* Banner-1 */
+
+.banner-1 {
+    border: 2px solid blue;
 }
 .banner-1 img {
-    position: absolute;
+    position: relative;
     border-radius: 20px;
+    width: 100%;
+    height: 100%;
 }
 .banner-1 button {
-    position: absolute;
+    position: relative;
     background-color: black;
     color: white;
     font-weight: 600;
@@ -188,3 +203,80 @@ div p {
     margin-left: 300px;
     margin-top: 620px;
 }
+
+/* Banner-2 */
+
+.banner-2 {
+    border: 2px solid green;
+}
+.banner-2 img {
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.banner-2 button {
+    position: relative;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    padding: 9px;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-top: 280px;
+}
+.banner-2 .text {
+    position: relative;
+    display: flex;
+    font-weight: 800;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 190px;
+}
+.text span {
+    color: #787976;
+    font-size: 10px;
+}
+
+/* Banner-3 */
+
+.banner-3 {
+    border: 2px solid black;
+}
+.banner-3 img {
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.banner-3 button {
+    position: relative;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    padding: 9px;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-top: 280px;
+}
+.banner-3 .text {
+    position: absolute;
+    display: flex;
+    font-weight: 800;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 190px;
+}
+.text p {
+    margin-bottom: 20px;
+}
+.text span {
+    color: #787976;
+    font-size: 10px;
+}   
