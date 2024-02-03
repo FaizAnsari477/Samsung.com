@@ -129,7 +129,7 @@ div p {
     text-decoration: 2px solid underline;
     margin-right: 40px;
 }
-div button {
+.buttons button {
     font-size: 14px;
     padding: 10px;
     border-radius: 25px;
@@ -139,4 +139,52 @@ div button {
 
 /* first_advertise_banner end */
 
-.This Week’s Highlights 
+/* heading-1 */
+
+.heading-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading-1 .week_highlights p {
+    padding: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.heading-1 .menu_bar a {
+    margin: 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.heading-1 .menu_bar a:hover {
+    color: #787976;
+}
+.heading-1 .menu_bar span {
+    text-decoration: underline;
+}
+
+/* Multiple Banner */
+
+.multiple_banners {
+    margin-top: 30px;
+}
+.banner-1 img {
+    position: absolute;
+    border-radius: 20px;
+}
+.banner-1 button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    padding: 9px;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 620px;
+}
