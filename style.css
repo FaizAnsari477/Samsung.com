@@ -1,0 +1,190 @@
+:root {
+    --dark-gray-color: #484A46;
+    --light-gray-color: #787976;
+    --white-color: #FFFFFF;
+    --light-grey-border-color: #EBE8E8
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* border: 2px solid red; */
+}
+main {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+/* nav_bar styling start */
+
+
+
+.nav_bar {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+.samsung_logo img {
+    width: 8rem;
+    height: 3rem;
+    margin-right: 4rem;
+}
+.nav_links {
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+.nav_links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 9px;
+}
+.nav_links a:hover {
+    background-color: black;
+    color: var(--white-color);
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+.support{
+    margin-right: 2.5rem;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7px;
+    gap: 1rem;
+}
+.support a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.support a:hover {
+    background-color: black;
+    color: var(--white-color);
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+.icons .search_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.icons .cart_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.icons .profile_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+
+/* nav_bar styling end*/
+
+
+/* first_advertise_banner start*/
+
+
+.first_advertise_banner {
+    background-image: url(./Resources/Galaxy-AI-is-here.jpg);
+    height: 700px;
+}
+.content {
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 300px;
+    margin-left: 80px;
+}
+.content h1 {
+    margin-bottom: 15px;
+}
+.content h3 {
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+.content div {
+    display: flex;
+    align-items: center;
+}
+div p {
+    font-size: 0.9rem;
+    text-decoration: 2px solid underline;
+    margin-right: 40px;
+}
+.buttons button {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100px;
+    font-weight: 600;
+}
+
+/* first_advertise_banner end */
+
+/* heading-1 */
+
+.heading-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading-1 .week_highlights p {
+    padding: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.heading-1 .menu_bar a {
+    margin: 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.heading-1 .menu_bar a:hover {
+    color: #787976;
+}
+.heading-1 .menu_bar span {
+    text-decoration: underline;
+}
+
+/* Multiple Banner */
+
+.multiple_banners {
+    margin-top: 30px;
+}
+.banner-1 img {
+    position: absolute;
+    border-radius: 20px;
+}
+.banner-1 button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    padding: 9px;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 620px;
+}

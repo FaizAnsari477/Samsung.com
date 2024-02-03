@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: auto;
+}
+
+.fast-navigation-item {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px; 
+    width: auto;     
+    padding: 0; 
+    list-style: none;
+}
+
+.card-list {
+    display: flex;
+    
+}
+
+.filter-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-filter{
+    display: flex
+}
+
+.filter {
+    height: 20px;
+    width: 20px;
+}
+
+.filter-item {
+    display: flex;
+}
+
+.chat-support{
+    display: flex;
+}
+
+.chat-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.plus-button {
+    height: 40px;
+    width: 40px;
+}
+
+.equal-button {
+    height: 40px;
+    width: 40px;
+}
+
+.product-selector{
+    display: flex;
+}
+
+.total-product {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.fast-navigation-cards-list2 {
+    display: flex;
+}
+
+.svg-fast-navigation2 {
+    height: 40px;
+    width: 40px;
+}
