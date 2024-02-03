@@ -17,10 +17,17 @@ main {
     margin-right: 2.5rem;
     font-family: 'Oxygen', sans-serif;
 }
+
+
+
+/* nav_bar styling start */
+
+
+
 .nav_bar {
     /* border: 2px solid green; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     flex-direction: row;
     padding: 10px;
     align-items: center;
@@ -28,25 +35,35 @@ main {
 .samsung_logo img {
     width: 8rem;
     height: 3rem;
-    margin-right: 5rem;
+    margin-right: 4rem;
 }
 .nav_links {
-    margin-right: 7rem;
+    margin-right: 4rem;
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    gap: 1rem;
+    align-items: center;
 }
 .nav_links a {
     text-decoration: none;
     color: black;
     font-weight: 600;
+    margin: 9px;
+}
+.nav_links a:hover {
+    background-color: black;
+    color: var(--white-color);
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 13px;
 }
 .support{
     margin-right: 2.5rem;
     display: flex;
     font-size: 14px;
+    align-items: center;
     justify-content: space-between;
+    margin: 7px;
     gap: 1rem;
 }
 .support a {
@@ -54,9 +71,16 @@ main {
     color: black;
     font-weight: 600;
 }
+.support a:hover {
+    background-color: black;
+    color: var(--white-color);
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 13px;
+}
 .icons {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 .icons .search_icon img {
     width: 1.7rem;
@@ -70,22 +94,49 @@ main {
     width: 1.7rem;
     height: 1.7rem;
 }
-.first_advertise_banner .banner-1 {
+
+
+/* nav_bar styling end*/
+
+
+/* first_advertise_banner start*/
+
+
+.first_advertise_banner {
     background-image: url(./Resources/Galaxy-AI-is-here.jpg);
-    height: 680px;
-    overflow-x: scroll;
+    height: 700px;
 }
-.banner-1 h1 {
-    color: var(--white-color);
+.content {
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
     margin-top: 300px;
     margin-left: 80px;
-    font-size: 3rem;
 }
-.banner-1 h3 {
-    color: var(--white-color);
-    margin-left: 80px;
+.content h1 {
+    margin-bottom: 15px;
 }
-.banner-1 .learn_more {
-    color: var(--white-color);
-    margin-left: 80px;
+.content h3 {
+    font-size: 1rem;
+    margin-bottom: 50px;
 }
+.content div {
+    display: flex;
+    align-items: center;
+}
+div p {
+    font-size: 0.9rem;
+    text-decoration: 2px solid underline;
+    margin-right: 40px;
+}
+div button {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100px;
+    font-weight: 600;
+}
+
+/* first_advertise_banner end */
+
+.This Week’s Highlights 
