@@ -1,0 +1,91 @@
+:root {
+    --dark-gray-color: #484A46;
+    --light-gray-color: #787976;
+    --white-color: #FFFFFF;
+    --light-grey-border-color: #EBE8E8
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* border: 2px solid red; */
+}
+main {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-family: 'Oxygen', sans-serif;
+}
+.nav_bar {
+    /* border: 2px solid green; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+.samsung_logo img {
+    width: 8rem;
+    height: 3rem;
+    margin-right: 5rem;
+}
+.nav_links {
+    margin-right: 7rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    gap: 1rem;
+}
+.nav_links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.support{
+    margin-right: 2.5rem;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.support a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.icons {
+    display: flex;
+    gap: 2rem;
+}
+.icons .search_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.icons .cart_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.icons .profile_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.first_advertise_banner .banner-1 {
+    background-image: url(./Resources/Galaxy-AI-is-here.jpg);
+    height: 680px;
+    overflow-x: scroll;
+}
+.banner-1 h1 {
+    color: var(--white-color);
+    margin-top: 300px;
+    margin-left: 80px;
+    font-size: 3rem;
+}
+.banner-1 h3 {
+    color: var(--white-color);
+    margin-left: 80px;
+}
+.banner-1 .learn_more {
+    color: var(--white-color);
+    margin-left: 80px;
+}
