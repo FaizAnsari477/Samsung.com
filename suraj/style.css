@@ -12,61 +12,118 @@
 
 /* Navbar CSS */
 
-.nav {
+:root {
+    --dark-gray-color: #484A46;
+    --light-gray-color: #787976;
+    --white-color: #FFFFFF;
+    --light-grey-border-color: #EBE8E8
+}
+
+/* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+body {
+    /* border: 2px solid red; */
+}
+
+main {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+/* nav_bar styling start */
+
+
+
+.nav_bar {
+    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 10px 20px 0 15px;
-    height: 75.875px;
-    padding: 0 15px 0 15px;
-    /* width: 1349px; */
-}
-
-/* .nav .left svg{
-     
-} */
-
-.nav .mid .mid_menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.nav .mid .mid_menu li a {
-    padding: 0 10px 0 10px;
-    font-weight: 700;
-    font-size: 13.2806px;
-    text-decoration: none solid rgb(255, 255, 255);
-    word-spacing: 0px;
-    line-height: 30.3556px;
-}
-
-.nav .right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav .right .left_menu .left_list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav .right .left_menu .left_list li a {
+    flex-direction: row;
     padding: 10px;
-
-}
-
-.nav .right .right_menu .right_list {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.nav .right .right_menu .menu_list li i {
-    padding: 10px;
+.samsung_logo img {
+    width: 8rem;
+    height: 3rem;
+    margin-right: 4rem;
 }
+
+.nav_links {
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 9px;
+}
+
+.nav_links a:hover {
+    background-color: black;
+    color: var(--white-color);
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+.support {
+    margin-right: 2.5rem;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7px;
+    gap: 1rem;
+}
+
+.support a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.support a:hover {
+    background-color: black;
+    color: var(--white-color);
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons .search_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.icons .cart_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.icons .profile_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+
+/* nav_bar styling end*/
 
 .home {
     display: flex;
@@ -151,4 +208,295 @@
 .photo_section .photo_content .content p {
     /* padding-top:7px; */
     font-size: 13px;
+}
+
+.down_photo {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.down_photo .height {
+    /* height: 00px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+
+
+
+
+.galaxy {
+    position: relative;
+    /* height: 175.953px;
+        width: 588.125px; */
+
+}
+
+.galaxy .galaxy_right {
+    text-align: center;
+
+
+}
+
+.galaxy .galaxy_left {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 25px;
+}
+
+.galaxy .galaxy_left h1 {
+    padding-bottom: 13px;
+    font-size: 45.5333px;
+    font-weight: 700;
+    line-height: 54.625px;
+    width: 588.125px;
+
+
+}
+
+.galaxy .galaxy_left p {
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 17.075px;
+    line-height: 22.7098px;
+    height: 22.7031px;
+    /* width: 588.125px; */
+    margin: 23px 0 0 0;
+}
+
+.galaxy .galaxy_left .gl {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.galaxy .galaxy_left .gl p {
+    padding: 0 10px 0 10px;
+    font-size: 13.2806px;
+    font-weight: 700;
+    line-height: 18.023px;
+    /* height: 37.9219px; */
+    /* width: 67.0625px; */
+    text-decoration: none solid rgb(0, 0, 0);
+}
+
+.galaxy .galaxy_left .gl .buynow_button {
+    border: 0.5px solid black;
+    background: #000;
+    color: white;
+    font-size: 13.2806px;
+    font-weight: 700;
+    line-height: 18.023px;
+    text-decoration: none solid rgb(255, 255, 255);
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 37.9219px;
+    width: 95.4375px;
+    text-align: center;
+    margin: 10px 0 0 19px;
+    padding: 9px 23px 10px 19px;
+    border-radius: 18.9722px;
+}
+
+.card_head_text {
+    height: 23.941px;
+    width: 303.021px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.94px;
+
+}
+
+.card_text {
+    font-size: 14px;
+    line-height: 18.62px;
+    height: 18.5938px;
+    width: 303.021px;
+    margin: 10px 0 10px 0;
+}
+
+.bnt_learn {
+    /* text-underline-offset: 0.7em */
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+
+
+.galaxy2 {
+    margin-top: 45px;
+    margin-bottom: 40px;
+    position: relative;
+    /* height: 175.953px;
+    width: 588.125px; */
+
+}
+
+.galaxy2 .galaxy2_right {
+    text-align: center;
+
+
+}
+
+.galaxy2 .galaxy2_left {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 25px;
+}
+
+.galaxy2 .galaxy2_left h1 {
+    padding-bottom: 13px;
+    font-size: 45.5333px;
+    font-weight: 700;
+    line-height: 54.625px;
+    width: 588.125px;
+
+
+}
+
+.galaxy2 .galaxy2_left p {
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 17.075px;
+    line-height: 22.7098px;
+    height: 22.7031px;
+    /* width: 588.125px; */
+    margin: 23px 0 0 0;
+}
+
+.galaxy2 .galaxy2_left .gl {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.galaxy2 .galaxy2_left .gl p {
+    padding: 0 10px 0 10px;
+    font-size: 13.2806px;
+    font-weight: 700;
+    line-height: 18.023px;
+    /* height: 37.9219px; */
+    /* width: 67.0625px; */
+    text-decoration: none solid rgb(0, 0, 0);
+}
+
+.galaxy2 .galaxy2_left .gl .buynow_button {
+    border: 0.5px solid black;
+    background: #000;
+    color: white;
+    font-size: 13.2806px;
+    font-weight: 700;
+    line-height: 18.023px;
+    text-decoration: none solid rgb(255, 255, 255);
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 37.9219px;
+    width: 95.4375px;
+    text-align: center;
+    margin: 10px 0 0 19px;
+    padding: 9px 23px 10px 19px;
+    border-radius: 18.9722px;
+}
+
+
+
+.galaxy3 {
+    margin-top: 45px;
+    margin-bottom: 40px;
+    position: relative;
+    /* height: 175.953px;
+    width: 588.125px; */
+
+}
+
+.galaxy3 .galaxy3_right {
+    text-align: center;
+
+
+}
+
+.galaxy3 .galaxy3_left {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    font-size: 25px;
+}
+
+.galaxy3 .galaxy3_left h1 {
+    color: white;
+    padding-bottom: 13px;
+    font-size: 45.5333px;
+    font-weight: 700;
+    line-height: 54.625px;
+    width: 588.125px;
+
+
+}
+
+.galaxy3 .galaxy3_left p {
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 17.075px;
+    line-height: 22.7098px;
+    height: 22.7031px;
+    color: white;
+    /* width: 588.125px; */
+    margin: 23px 0 0 0;
+}
+
+.galaxy3 .galaxy3_left .gl {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.galaxy3 .galaxy3_left .gl p {
+    padding: 0 10px 0 10px;
+    font-size: 13.2806px;
+    font-weight: 700;
+    line-height: 18.023px;
+    /* height: 37.9219px; */
+    /* width: 67.0625px; */
+    text-decoration: none solid rgb(0, 0, 0);
+}
+
+.galaxy3 .galaxy3_left .gl .buynow_button {
+    border: 0.5px solid black;
+    background: white;
+    color: black;
+    font-size: 13.2806px;
+    font-weight: 700;
+    line-height: 18.023px;
+    text-decoration: none solid rgb(255, 255, 255);
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 39.9826px;
+    width: 118.681px;
+    text-align: center;
+    margin: 10px 0 0 19px;
+    padding: 10px 24px 11px 24px;
+    border-radius: 18.9722px;
+}
+
+.galaxy2 .galaxy2_left .gl .buynow_button_style {
+    border: 0.5px solid black;
+    background: black;
+    color: white;
+    font-size: 13.2806px;
+    font-weight: 700;
+    line-height: 18.023px;
+    text-decoration: none solid rgb(255, 255, 255);
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 39.9826px;
+    width: 118.681px;
+    text-align: center;
+    margin: 10px 0 0 19px;
+    padding: 10px 24px 11px 24px;
+    border-radius: 18.9722px;
 }
