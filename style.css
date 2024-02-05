@@ -395,6 +395,9 @@ main {
     color: black;
     font-weight: 700;
 }
+.galaxy_mobile_menu a:hover {
+    color: #787976;
+}
 .galaxy_mobile_menu span a {
     padding-bottom: 7px;
     border-bottom-style: solid;
@@ -465,6 +468,15 @@ main {
     font-weight: 700;
     margin-bottom: 60px;
 }
+.tv_menu a:hover {
+    width: 100px;
+    /* margin: auto; */
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #f3f6f4;
+    opacity: 0.3;
+    /* color: #787976; */
+}
 .tv_menu span a {
     padding-bottom: 7px;
     border-bottom-style: solid;
@@ -478,6 +490,74 @@ main {
     font-family: 'SamsungSharpSans',arial,sans-serif;
 }
 .third_advertise_banner .price_offers p {
+    font-size: 16px;
+    text-align: center;
+}
+.bottom_buttons {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+.bottom_buttons button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+/* Fourth Poster */
+
+.fourth_advertise_banner {
+    background-image: url(./Resources/12kg-AI-ecobubble-with-AI.jpg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.home_appliances h1 {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 38px;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    font-weight: bold;
+}
+.home_appliances_menu{
+    padding: 10px;
+    margin-bottom: 450px;
+}
+.home_appliances_menu a {
+    margin: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.home_appliances_menu a:hover {
+    width: 100px;
+    /* margin: auto; */
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #f3f6f4;
+    opacity: 0.3;
+    /* color: #787976; */
+}
+.home_appliances_menu span a {
+    padding-bottom: 7px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+.product_name p {
+    margin: 20px;
+    font-size: 46px;
+    border-bottom: 15px;
+    font-weight: bold;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+}
+.fourth_advertise_banner .price_offers p {
     font-size: 16px;
     text-align: center;
 }
