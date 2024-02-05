@@ -514,7 +514,6 @@ main {
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 .home_appliances h1 {
@@ -538,12 +537,10 @@ main {
 }
 .home_appliances_menu a:hover {
     width: 100px;
-    /* margin: auto; */
     padding: 10px;
     border-radius: 25px;
     background-color: #f3f6f4;
     opacity: 0.3;
-    /* color: #787976; */
 }
 .home_appliances_menu span a {
     padding-bottom: 7px;
@@ -573,4 +570,209 @@ main {
     border-radius: 25px;
     background-color: black;
     color: white;
+}
+
+/* Recommended Products */
+
+.recommended_products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recommended_products .cards {
+    display: flex;
+    flex-direction: row;
+}
+.heading-2 h1 {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 38px;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    font-weight: bold;
+    margin: 30px;
+}
+.cards .card {
+    background-color: #F7F7F7;
+    border-radius: 25px;
+    width: 270px;
+    height: 622px;
+    margin: 10px;
+}
+.card img {
+    padding: 20px;
+    margin-top: 20px;
+}
+.card .new button {
+    background-color: #2189FF;
+    position: absolute;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 18px;
+}
+.card .device_name p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.watch-6 p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+}
+.card .color p {
+    text-align: center;
+    font-size: 12px;
+    /* margin: 30px; */
+}
+.card .color span {
+    font-weight: bold;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+}
+.color_selector-1 {
+    margin: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #ACA49B;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.color_selector-2 {
+    margin: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #4D4E5F;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.color_selector-3 {
+    margin: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #62605F;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.color_selector-4 {
+    margin: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #B2A1CD;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.color_selector-5 {
+    margin: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #F1F0ED;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.color_selector-6 {
+    margin: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #F8F2E2;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.color_selector-7 {
+    margin: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #DAD6CA;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.card .varient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+.card .varient .selected {
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 25px;
+}
+.card .deal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.deal .price p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+}
+.deal .price_buds p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 70px;
+}
+.deal .price_watch p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 70px;
+}
+.deal .price_tab p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 30px;
+}
+.deal .offers p {
+    font-size: 12px;
+    /* margin: 10px; */
+}
+.offers .MRP {
+    text-decoration: line-through;
+}
+.offers .saving {
+    color: #2189FF;
+}
+.offers .EMI_Calculator {
+    font-size: 12px;
+    color: #2189FF;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.button button {
+    width: 220px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+}
+.material-symbols-outlined {
+    border: 2px solid #F7F7F7;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
 }
