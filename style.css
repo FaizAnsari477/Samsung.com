@@ -124,11 +124,16 @@ main {
     margin-right: 40px;
 }
 .buttons button {
+    border: none;
     font-size: 14px;
     padding: 10px;
     border-radius: 25px;
     width: 100px;
     font-weight: 600;
+}
+.buttons button:hover {
+    background-color: #C7C7C7;
+    cursor: pointer;
 }
 
 /* first_advertise_banner end */
@@ -448,6 +453,7 @@ main {
     font-size: small;
 }
 .bottom_buttons button {
+    border: none;
     width: 100px;
     padding: 10px;
     border-radius: 25px;
@@ -819,6 +825,7 @@ main {
 .explore_banner {
     overflow: hidden;
     position: relative;
+    border-radius: 25px;
 }
 .explore_banner img {
     border-radius: 25px;
@@ -933,6 +940,7 @@ main {
     padding: 20px 0 0 0;
 }
 
+/* Footer */
 /* Service Links */
 
 .service_links {
