@@ -206,11 +206,59 @@
   text-decoration: underline;
   color:rgb(37, 152, 235)
 }
-.mid-section{
+.quick-look-button{
+  background-color: white;
+  border: solid 2px black;
+  padding: 5px;
+  border-radius: 20px;
+}
+.quick-look-button:hover{
+  background-color: rgb(242, 237, 237);
+  cursor: pointer;
+}
+.buy-now-button{
+  background-color:black ;
+  color: white;
+  padding:3px;
+  text-align: center;
+  width: 100%;
+  border-radius: 22px;
+}
+.buy-now-button:hover{
+  opacity:0.6;
+  cursor: pointer;
+}
+.learn-more-button{
+  background-color:white;
+  color: black;
+  padding:4px;
+  text-align: center;
+  width: 100%;
+  border-radius: 22px;
+}
+.learn-more-button:hover{
+  background-color:#f3f0ef;
+  opacity:0.9;
+  cursor: pointer;
+}
+.where-compare-icons{
   display: flex;
-  border:solid
+
+}
+.main{
+  display:flex;
+}
+.middle-whole-section{
+  display: flex;
+  justify-content: space-between;
+  border:solid;
 }
 .mid-fridge-part{
-  display: flex;
-  border:solid
+  display: flex;;
+}
+.left-sidebar{
+  width: 30%;
+}
+.mid-section{
+  width: 70%;
 }
