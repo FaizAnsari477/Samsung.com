@@ -9,11 +9,13 @@
     padding: 10px;
     align-items: center;
 }
+
 .samsung_logo img {
     width: 8rem;
     height: 3rem;
     margin-right: 4rem;
 }
+
 .nav_links {
     margin-right: 5rem;
     display: flex;
@@ -21,12 +23,14 @@
     font-size: 14px;
     align-items: center;
 }
+
 .nav_links a {
     text-decoration: none;
     color: black;
     font-weight: 600;
     padding: 7px;
 }
+
 .nav_links a:hover {
     background-color: black;
     color: var(--white-color);
@@ -34,19 +38,22 @@
     border-radius: 25px;
     font-size: 14px;
 }
-.support{
+
+.support {
     margin-right: 1rem;
     display: flex;
     font-size: 14px;
     align-items: center;
     justify-content: space-between;
 }
+
 .support a {
     text-decoration: none;
     color: black;
     font-weight: 600;
     padding: 7px;
 }
+
 .support a:hover {
     background-color: black;
     color: var(--white-color);
@@ -54,18 +61,22 @@
     border-radius: 25px;
     font-size: 14px;
 }
+
 .icons {
     display: flex;
     gap: 1rem;
 }
+
 .icons .search_icon img {
     width: 1.7rem;
     height: 1.7rem;
 }
+
 .icons .cart_icon img {
     width: 1.7rem;
     height: 1.7rem;
 }
+
 .icons .profile_icon img {
     width: 1.7rem;
     height: 1.7rem;
@@ -179,25 +190,25 @@
 }
 
 .fast-navigation-button2 {
-    border-radius: 50%;    
-    padding: 10px 20px;    
-    background-color: #7e17b9;    
-    color: #fff;    
-    border: none;    
-    cursor: pointer;    
-    font-size: 16px;    
+    border-radius: 50%;
+    padding: 10px 20px;
+    background-color: #7e17b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-.heading-smart-section{
+.heading-smart-section {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
 .second-heading-smart-section {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .smart-things-buttons {
@@ -207,7 +218,7 @@
     align-items: center;
 }
 
-.third-heading-smart-section{
+.third-heading-smart-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,7 +236,7 @@
     align-items: center;
 }
 
-.card-list-recommended{
+.card-list-recommended {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,3 +276,135 @@
     height: 30px;
     width: 30px;
 }
+
+.card-list-bestseller {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card-item-bestseller {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner-img {
+    width: 100%;
+    display: block;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: rgb(10, 0, 0); 
+    padding: 15px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+.heading-top-seller {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-list-topseller {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-list-topseller {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+}
+
+.card-last-section{
+    display: flex;
+    justify-content: start;
+    text-align: left;
+}
+
+.heading-combo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-heading-combo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-heading-combo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-list-smart-section {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.card-item-buy {
+    width: 700px;
+    height: 220px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    box-sizing: border-box; 
+    border-radius: 20px;
+}
+
+.card-item-helpme-choose {
+    position: relative;
+    display: inline-block;
+}
+
+.buttons-helpme-choose {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.heading-reward {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-item-reward {
+    width: 700px;
+    height: 220px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    box-sizing: border-box; 
+    border-radius: 20px;
+}
+
+.card-last-section {
+    dis
+}
+
