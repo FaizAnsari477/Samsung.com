@@ -178,3 +178,12 @@
     height: 40px;
     width: 40px;
 }
+
+.card-list-helpme-choose {
+    display: flex;
+}
+
+.card-heading-reward-right {
+    height: 30px;
+    width: 30px;
+}
