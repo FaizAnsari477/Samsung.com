@@ -1,3 +1,81 @@
+/* nav_bar styling start */
+
+
+.nav_bar {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+.samsung_logo img {
+    width: 8rem;
+    height: 3rem;
+    margin-right: 4rem;
+}
+.nav_links {
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+.nav_links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 7px;
+}
+.nav_links a:hover {
+    background-color: black;
+    color: var(--white-color);
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.support{
+    margin-right: 1rem;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+.support a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 7px;
+}
+.support a:hover {
+    background-color: black;
+    color: var(--white-color);
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+.icons .search_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.icons .cart_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.icons .profile_icon img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+
+/* nav_bar styling end*/
+
+
+
 .fast-navigation-item {
     display: flex;
     flex-direction: column;
