@@ -167,57 +167,66 @@ main {
 /* Multiple Banner */
 
 .multiple_banners {
-    border: 2px solid red;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 40px;
 }
+.small_banners {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 /* Banner-1 */
 
-.banner-1 {
-    display: block;
-    background-color: hsl(0, 0%, 93%);
-    border: 2px solid blue;
-    width: 47%;
-    height: 100%;
+.small_banners_width {
+    width: 48%;
 }
-.banner-1 img {
-    position: relative;
-    border-radius: 20px;
+.banner-1 {
+    background-image: url(./Resources/S24_Series_BigTile.avif);
+    height: 680px;
     width: 648px;
-    height: 648px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+    transition: transform 0.1s ease-in-out;
+}
+.banner-1:hover {
+    transform: scale(1.03);
 }
 .banner-1 button {
     position: relative;
     background-color: black;
-    vertical-align: middle;
     color: white;
     font-weight: 600;
     width: 100px;
     padding: 9px;
     border-radius: 20px;
     margin-left: 260px;
-    margin-top: 30px;
+    margin-top: 620px;
+    opacity: 0;
 }
 
 /* Banner-2 */
 
 .banner-2 {
-    border: 2px solid green;
-    background-color: #fffdfd;
-    width: 24%;
-    height: 100%;
-}
-.banner-2 img {
-    position: relative;
-    border-radius: 20px;
-    width: 330px;
+    background-image: url(./Resources/S24_Ultra_Small.avif);
     height: 330px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+    transition: transform 0.1s ease-in-out;
+}
+.banner-2:hover {
+    transform: scale(1.03);
 }
 .banner-2 button {
-    position: relative;
+    position: absolute;
     background-color: black;
     color: white;
     font-weight: 600;
@@ -225,7 +234,8 @@ main {
     padding: 9px;
     border-radius: 20px;
     margin-left: 115px;
-    /* margin-top: 280px; */
+    margin-top: -40px;
+    opacity: 0;
 }
 .banner-2 .text {
     position: relative;
@@ -235,7 +245,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin-left: 11px;
-    /* margin-top: 190px; */
+    margin-top: 190px;
 }
 .text span {
     color: #787976;
@@ -245,18 +255,20 @@ main {
 /* Banner-3 */
 
 .banner-3 {
-    border: 2px solid black;
-    width: 24%;
-    height: 100%;
-}
-.banner-3 img {
-    position: static;
-    border-radius: 20px;
-    width: 330px;
+    background-image: url(./Resources/EPP_Generic_330x330_Grey_background.avif);
     height: 330px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+    transition: transform 0.1s ease-in-out;
+}
+.banner-3:hover{
+    transform: scale(1.03);
 }
 .banner-3 button {
-    position: relative;
+
+    position: absolute;
     background-color: black;
     color: white;
     font-weight: 600;
@@ -264,7 +276,8 @@ main {
     padding: 9px;
     border-radius: 20px;
     margin-left: 120px;
-    /* margin-top: 280px; */
+    margin-top: 7px;
+    opacity: 0;
 }
 .banner-3 .text {
     position: relative;
@@ -274,7 +287,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin-left: 10px;
-    /* margin-top: 190px; */
+    margin-top: 190px;
 }
 .text p {
     margin-bottom: 20px;
@@ -287,18 +300,19 @@ main {
 /* Banner-4 */
 
 .banner-4 {
-    border: 2px solid black;
-    width: 24%;
-    height: 100%;
-}
-.banner-4 img {
-    position: relative;
-    border-radius: 20px;
-    width: 330px;
+    background-image: url(./Resources/Small_Tile_330x330_8kg_AI_Ecobubble1.avif);
     height: 330px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+    transition: transform 0.1s ease-in-out;
+}
+.banner-4:hover {
+    transform: scale(1.03);
 }
 .banner-4 button {
-    position: relative;
+    position: absolute;
     background-color: black;
     color: white;
     font-weight: 600;
@@ -306,17 +320,18 @@ main {
     padding: 9px;
     border-radius: 20px;
     margin-left: 110px;
-    /* margin-top: 280px; */
+    margin-top: 275px;
+    opacity: 0;
 }
 .banner-4 .text {
-    position: relative;
+    position: absolute;
     display: flex;
     font-weight: 800;
     font-size: 18px;
     flex-direction: column;
     align-items: center;
-    margin-left: 7px;
-    /* margin-top: 190px; */
+    margin-left: 30px;
+    margin-top: 200px;
 }
 .text p {
     margin-bottom: 20px;
@@ -329,18 +344,19 @@ main {
 /* Banner-5 */
 
 .banner-5 {
-    border: 2px solid black;
-    width: 24%;
-    height: 100%;
-}
-.banner-5 img {
-    position: relative;
-    border-radius: 20px;
-    width: 330px;
+    background-image: url(./Resources/Small-Tile_330x330-UHD-4K-CUE.avif);
     height: 330px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+    transition: transform 0.1s ease-in-out;
+}
+.banner-5:hover {
+    transform: scale(1.03);
 }
 .banner-5 button {
-    position: relative;
+    position: absolute;
     background-color: black;
     color: white;
     font-weight: 600;
@@ -348,17 +364,18 @@ main {
     padding: 9px;
     border-radius: 20px;
     margin-left: 110px;
-    /* margin-top: 280px; */
+    margin-top: 275px;
+    opacity: 0;
 }
 .banner-5 .text {
-    /* position: relative; */
+    position: absolute;
     display: flex;
     font-weight: 800;
     font-size: 18px;
     flex-direction: column;
     align-items: center;
-    margin-left: 10px;
-    /* margin-top: 190px; */
+    margin-left: 30px;
+    margin-top: 190px;
 }
 .text p {
     margin-bottom: 20px;
@@ -787,6 +804,7 @@ main {
     font-family: 'SamsungSharpSans',arial,sans-serif;
     font-weight: bold;
     margin: 30px;
+    padding-bottom: 7px;
 }
 .heading-3 h1:hover {
     color: #787976;
@@ -810,7 +828,7 @@ main {
     transition: transform 0.1s ease-in-out;
 }
 .explore_banner img:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     border-radius: 25px;
 }
 .toggle_section .toggle-1 {
@@ -867,7 +885,7 @@ main {
     flex-direction: row;
     align-content: center;
     border: 2px solid #C7C7C7;
-    padding: 10px;
+    padding: 7px;
     width: 450px;
     border-radius: 25px;
 }
@@ -918,8 +936,6 @@ main {
 /* Service Links */
 
 .service_links {
-    /* font-family: 'Noto Sans' sans-serif; */
-    /* font-family: 'Open Sans' sans-serif; */
     display: flex;
     font-family: sa;
     flex-direction: row;
@@ -927,8 +943,10 @@ main {
     border-bottom: 1px solid #C7C7C7;
 }
 .Section {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 500px;
-    padding: 30px;
+    padding: 25px;
     /* border-right: 1px solid #C7C7C7; */
     border-left: 1px solid #C7C7C7;
 }
