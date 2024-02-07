@@ -213,7 +213,7 @@ main {
     border-radius: 1.25rem;
     margin-left: 16.25rem;
     margin-top: 38.75rem;
-    opacity: 0;
+    opacity: 1;
 }
 
 /* Banner-2 */
@@ -240,7 +240,7 @@ main {
     border-radius: 1.25rem;
     margin-left: 7.188rem;
     margin-top: -2.5rem;
-    opacity: 0;
+    opacity: 1;
 }
 .banner-2 .text {
     position: relative;
@@ -255,6 +255,7 @@ main {
 .text span {
     color: #787976;
     font-size: 0.625rem;
+    opacity: 0;
 }
 
 /* Banner-3 */
@@ -282,7 +283,7 @@ main {
     border-radius: 1.25rem;
     margin-left: 7.5rem;
     margin-top: 0.438rem;
-    opacity: 0;
+    opacity: 1;
 }
 .banner-3 .text {
     position: relative;
@@ -326,7 +327,7 @@ main {
     border-radius: 1.25rem;
     margin-left: 6.875rem;
     margin-top: 17.188rem;
-    opacity: 0;
+    opacity: 1;
 }
 .banner-4 .text {
     position: absolute;
@@ -365,12 +366,12 @@ main {
     background-color: black;
     color: white;
     font-weight: 600;
-    width: 20.625rem;
+    width: 6.25rem;
     padding: 0.563rem;
     border-radius: 1.25rem;
     margin-left: 6.875rem;
     margin-top: 17.188rem;
-    opacity: 0;
+    opacity: 1;
 }
 .banner-5 .text {
     position: absolute;
