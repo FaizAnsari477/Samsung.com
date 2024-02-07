@@ -2,18 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'SamsungOne', sans-serif;
-  font-family: 'Samsung Sharp Sans', sans-serif;
+  font-family: "SamsungOne", sans-serif;
+  font-family: "Samsung Sharp Sans", sans-serif;
   color: black;
   text-decoration: none;
   list-style: none;
-
 }
 :root {
-  --dark-gray-color: #484A46;
+  --dark-gray-color: #484a46;
   --light-gray-color: #787976;
-  --white-color: #FFFFFF;
-  --light-grey-border-color: #EBE8E8
+  --white-color: #ffffff;
+  --light-grey-border-color: #ebe8e8;
 }
 .nav_bar {
   /* border: 2px solid green; */
@@ -28,6 +27,8 @@
   width: 8rem;
   height: 3rem;
   margin-right: 4rem;
+  margin-top: 15px;
+  margin-left: 4rem;
 }
 
 .nav_links {
@@ -39,7 +40,7 @@
 }
 
 .nav_links a {
-  text-decoration:none;
+  text-decoration: none;
   color: black;
   font-weight: 600;
   margin: 9px;
@@ -138,7 +139,7 @@
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -164,7 +165,7 @@
 }
 .item {
   display: flex;
-  
+
   /* margin: 20px; */
 }
 .color_selector-1 {
@@ -179,7 +180,7 @@
   margin: 10px;
   width: 18px;
   height: 18px;
-  background-color: #4D4E5F;
+  background-color: #4d4e5f;
   border-radius: 50%;
   border: 1px solid black;
 }
@@ -187,7 +188,7 @@
   margin: 10px;
   width: 18px;
   height: 18px;
-  background-color: #62605F;
+  background-color: #62605f;
   border-radius: 50%;
   border: 1px solid black;
 }
@@ -199,70 +200,69 @@
   border-radius: 50%;
   border: 1px solid black;
 }
-.anchor-price{
-  color:rgb(39, 126, 155);
+.anchor-price {
+  color: rgb(39, 126, 155);
 }
-.no-cost-emi{
+.no-cost-emi {
   text-decoration: underline;
-  color:rgb(37, 152, 235)
+  color: rgb(37, 152, 235);
 }
-.quick-look-button{
+.quick-look-button {
   background-color: white;
   border: solid 2px black;
   padding: 5px;
   border-radius: 20px;
 }
-.quick-look-button:hover{
+.quick-look-button:hover {
   background-color: rgb(242, 237, 237);
   cursor: pointer;
 }
-.buy-now-button{
-  background-color:black ;
+.buy-now-button {
+  background-color: black;
   color: white;
-  padding:3px;
+  padding: 3px;
   text-align: center;
   width: 100%;
   border-radius: 22px;
 }
-.buy-now-button:hover{
-  opacity:0.6;
+.buy-now-button:hover {
+  opacity: 0.6;
   cursor: pointer;
 }
-.learn-more-button{
-  background-color:white;
+.learn-more-button {
+  background-color: white;
   color: black;
-  padding:4px;
+  padding: 4px;
   text-align: center;
   width: 100%;
   border-radius: 22px;
 }
-.learn-more-button:hover{
-  background-color:#f3f0ef;
-  opacity:0.9;
+.learn-more-button:hover {
+  background-color: #f3f0ef;
+  opacity: 0.9;
   cursor: pointer;
 }
-.where-compare-icons{
+.where-compare-icons {
   display: flex;
-
 }
-.main{
-  display:flex;
+.main {
+  display: flex;
 }
-.middle-whole-section{
+.middle-whole-section {
   display: flex;
   justify-content: space-between;
-  border:solid;
+  border: solid;
 }
-.mid-fridge-part{
-  display: flex;;
+.mid-fridge-part {
+  display: flex;
 }
-.left-sidebar{
+.left-sidebar {
   width: 30%;
 }
-.mid-section{
+.mid-section {
   width: 70%;
 }
-.blue-text{
+.blue-text {
   text-decoration: underline;
   color: blue;
 }
@@ -270,16 +270,16 @@
   display: flex;
   font-family: sa;
   flex-direction: row;
-  border-top: 1px solid #C7C7C7;
-  border-bottom: 1px solid #C7C7C7;
+  border-top: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7;
 }
 .Section {
-  font-family: 'Noto Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 31.25rem;
   padding: 1.563rem;
   /* border-right: 1px solid #C7C7C7; */
-  border-left: 1px solid #C7C7C7;
+  border-left: 1px solid #c7c7c7;
 }
 .Section h3 {
   padding: 0.625rem;
@@ -292,16 +292,16 @@
   color: black;
   line-height: 1.875rem;
 }
-.Section a:hover { 
+.Section a:hover {
   text-decoration: underline;
-  color: #1428A0;
+  color: #1428a0;
 }
 .contact {
   padding: 0.938rem;
-  border-bottom: 1px solid #C7C7C7;
+  border-bottom: 1px solid #c7c7c7;
 }
 .contact span {
-  color: #2189FF;
+  color: #2189ff;
   cursor: pointer;
 }
 .contact p {
@@ -318,7 +318,7 @@
   font-weight: bold;
   font-size: 0.75rem;
   color: black;
-  border-right: 1px solid #C7C7C7;
+  border-right: 1px solid #c7c7c7;
 }
 .bottom_navigation a {
   color: black;
@@ -337,4 +337,112 @@
 }
 .social_icons p {
   font-size: 0.75rem;
+}
+.warranty-para {
+  height: 48px;
+  width: 1600px;
+  text-align: center;
+  padding-left: 200px;
+  padding-top: 9px;
+  word-spacing: 0;
+  background-color: #f5f3f3;
+}
+.warranty-para-text {
+  word-spacing: -1px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none solid rgb(0, 0, 0);
+  line-height: 16px;
+  text-align: left;
+}
+.below-warranty-para {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.home-appliances-list a {
+  margin: 15px;
+}
+.home-appliances {
+  margin-left: 27px;
+}
+.home-appliances :hover {
+  cursor: pointer;
+}
+.for-hover :hover {
+  cursor: pointer;
+}
+.home-appliances-list a :hover {
+  cursor: pointer;
+}
+.bespoke {
+  display: flex;
+  text-align: left;
+  margin-left: 35px;
+  margin-right: 20px;
+  /* margin: 24px 0 24px 55px; */
+}
+.refrig-types {
+  display: flex;
+  justify-content: space-around;
+  padding: 22px 65px 22px 65px;
+  background-color: #f5f3f3;
+}
+.hnji {
+  position: relative;
+  margin-top: 30px;
+}
+.refri-type-text {
+  font-size: 12px;
+  word-spacing: -1px;
+}
+.bda-div {
+  text-align: left;
+  margin-left: 20px;
+}
+.refri-type-name {
+  word-spacing: 0;
+  /* font-size: 14px; */
+}
+.template {
+  /* text-align: center; */
+}
+.big-text {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: white;
+}
+.big-text p {
+}
+.buy-now {
+  color: black;
+  background-color: white;
+  border: solid 1px white;
+  padding: 9px 18px 9px 18px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 550;
+}
+.small-text {
+  margin-bottom: 14px;
+}
+.whole-text {
+  position: relative;
+  left: 770px;
+  bottom: 330px;
+}
+.swipe-button {
+  padding: 7px;
+  height: 40px;
+  width: 40px;
+  border: solid 1px white;
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgb(87, 86, 86);
+  color: white;
+}
+#left.swipe{
+  position: relative;
+  bottom: 400px;
 }
