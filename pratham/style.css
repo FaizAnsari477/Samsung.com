@@ -201,7 +201,7 @@
   border: 1px solid black;
 }
 
-}
+
 .service_links {
   display: flex;
   font-family: sa;
@@ -568,4 +568,60 @@
 }
 .where-to-buy{
   display: flex;
+}
+.view-ji{
+  position: relative;
+  bottom: 80px;
+  left: 450px;
+}
+.view-more-button{
+  padding: 7px 15px;
+  border-radius: 22px;
+  background-color: white;
+
+}
+.faq-text{
+  text-align: center;
+  margin: 25px;
+  margin-bottom: 50px;
+}
+.ques-text{
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #e4e2e2;
+  padding: 20px;
+  margin: 0;
+  
+}
+.ques-symbol-in-corner{
+  position: relative;
+  left: 1410px;
+  bottom: 49px;
+}
+.ans{
+  background-color:#f8f6f6;
+  padding: 30px;
+  margin-top: -39px;
+}
+.faltu-text-div1{
+  margin: 28px 90px;
+  font-size: 12px;
+  text-align: left;
+}
+.t2{
+  margin: 20px 0;
+}
+.faltu-text-div2{
+  text-align: left;
+  margin: 28px 90px;
+  font-size: 12px;
+}
+.t{
+  margin-bottom: 20px;
+}
+.last{
+  margin: 15px;
+}
+.l{
+  margin: 6px;
 }
