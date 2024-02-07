@@ -49,7 +49,7 @@ main {
     background-color: black;
     color: var(--white-color);
     padding: 0.438rem;
-    border-radius: 0.438rem;
+    border-radius: 1.563rem;
     font-size: 0.875rem;
 }
 .support{
