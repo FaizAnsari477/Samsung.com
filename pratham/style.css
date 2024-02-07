@@ -262,3 +262,79 @@
 .mid-section{
   width: 70%;
 }
+.blue-text{
+  text-decoration: underline;
+  color: blue;
+}
+.service_links {
+  display: flex;
+  font-family: sa;
+  flex-direction: row;
+  border-top: 1px solid #C7C7C7;
+  border-bottom: 1px solid #C7C7C7;
+}
+.Section {
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  width: 31.25rem;
+  padding: 1.563rem;
+  /* border-right: 1px solid #C7C7C7; */
+  border-left: 1px solid #C7C7C7;
+}
+.Section h3 {
+  padding: 0.625rem;
+}
+.Section a {
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
+  margin: 0.625rem;
+  text-decoration: none;
+  color: black;
+  line-height: 1.875rem;
+}
+.Section a:hover { 
+  text-decoration: underline;
+  color: #1428A0;
+}
+.contact {
+  padding: 0.938rem;
+  border-bottom: 1px solid #C7C7C7;
+}
+.contact span {
+  color: #2189FF;
+  cursor: pointer;
+}
+.contact p {
+  font-size: 0.75rem;
+}
+.bottom_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.938rem;
+}
+.bottom_navigation span {
+  padding-right: 1.25rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: black;
+  border-right: 1px solid #C7C7C7;
+}
+.bottom_navigation a {
+  color: black;
+  margin-left: 1.25rem;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+.social_icons {
+  display: flex;
+  align-items: center;
+}
+.social_icons img {
+  margin-left: 0.313rem;
+  width: 2.188rem;
+  height: 2.188rem;
+}
+.social_icons p {
+  font-size: 0.75rem;
+}
