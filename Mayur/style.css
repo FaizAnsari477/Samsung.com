@@ -9,7 +9,7 @@
   list-style: none;
 }
 @font-face {
-  font-family:"samsung one" ;
+  font-family:"samsung one";
   src: url(samsungsharpsans-medium.otf);
 }
 @font-face {
@@ -178,6 +178,7 @@ cursor: pointer;
   margin-left: 30%;
   font-weight: 600;
   padding: 50px;
+  font-family:"samsung one";
 }
 .Filters{
   width: 50%;
@@ -267,7 +268,7 @@ cursor: pointer;
   margin-top: 10%;
   margin-left: 20%;
 margin-right: -20%;
-font-family:"samsung one" ;
+font-family: "Sumsung";
 
 }
 .quick-look-button:hover{
@@ -275,12 +276,12 @@ font-family:"samsung one" ;
   cursor: pointer;
 }
 .buy-now-button{
-  background-color:black ;
+  background-color:black;
   color: white;
   padding:3px;
   text-align: center;
   width: 100%;
-  font-family:"samsung one" ;
+  font-family:"samsung one";
   border-radius: 22px;
 }
 .buy-now-button:hover{
@@ -295,7 +296,7 @@ font-family:"samsung one" ;
   text-align: center;
   width: 100%;
   border-radius: 22px;
-  font-family:"samsung one" ;
+  font-family:"samsung one";
 }
 .learn-more-button:hover{
   background-color:#f3f0ef;
@@ -327,7 +328,7 @@ font-family:"samsung one" ;
   margin-left: 70%;
 margin-right: -80%;
 margin-top: 8%;
-font-family:"samsung one" ;
+font-family: "Sumsung";
 }
 .TV-qualities-ul{
   display: flex;
@@ -336,11 +337,11 @@ font-family:"samsung one" ;
 margin-right: -80%;
 margin-bottom: 50%;
 margin-top: -40%;
-font-family:"samsung one" ;
+font-family: "Sumsung";
 }
 .pricing-div-upto-stock{
   margin-top: 10%;
-  font-family:"samsung one" ;
+  font-family: "Sumsung";
 }
 .buy-now-section-div{
   margin-top: 30%;
@@ -348,14 +349,14 @@ font-family:"samsung one" ;
 .where-to-buy{
   float: left;
   width: 50%;
-  font-family:"samsung one" ;
+  font-family: "Sumsung";
 }
 .compare{
   content: "";
   display: inline;
   float: right;
   width: 50%; 
-  font-family:"samsung one" ;
+  font-family: "Sumsung";
 }
 .where-to-buy:hover{
   background-color:#f3f0ef;
@@ -364,21 +365,102 @@ font-family:"samsung one" ;
   border-radius: 22px;
   padding: 0%;
 }
-.more{
- position: absolute;
- font-size: 14px;
- background-color: rgb(255, 255, 255);
- color: rgb(0, 0, 0);
-padding: 10px 18px;
-border-radius: 20px;
-border: solid 1px;
-font-weight: 700;
-cursor: pointer;
-margin-left: 20%;
-margin-top: 26%;
-font-family:"samsung one" ;
+
+/* Footer */
+/* Service Links */
+
+.service_links {
+  display: flex;
+  font-family: "Sumsung";
+  flex-direction: row;
+  border-top: 0.0625rem solid #C7C7C7;
+  border-bottom: 0.0625rem solid #C7C7C7;
+  margin-right: 6%;
+  margin-left: 6%;
 }
-.more:hover{
- background-color: #f0f1ee;
- transition: 0.3ms;
-} 
+
+.Section {
+  font-family: "Sumsung";
+  width: 31.25rem;
+  padding: 1.5625rem;
+  /* border-right: 1px solid #C7C7C7; */
+  border-left: 0.0625rem solid #C7C7C7;
+}
+
+.Section h3 {
+  padding: 0.625rem;
+}
+
+.Section a {
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
+  margin: 0.625rem;
+  text-decoration: none;
+  color: black;
+  line-height: 1.875rem;
+}
+
+.Section a:hover {
+  text-decoration: underline;
+  color: #1428A0;
+}
+
+.contact {
+  padding: 0.9375rem;
+  border-bottom: 0.0625rem solid #C7C7C7;
+}
+
+.contact span {
+  color: #2189FF;
+  cursor: pointer;
+}
+
+.contact p {
+  font-size: 0.75rem;
+}
+
+.bottom_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.9375rem;
+}
+
+.bottom_navigation span {
+  padding-right: 1.25rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: black;
+  border-right: 0.0625rem solid #C7C7C7;
+}
+
+.bottom_navigation a {
+  color: black;
+  margin-left: 1.25rem;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+.social_icons {
+  display: flex;
+  align-items: center;
+}
+
+.social_icons img {
+  margin-left: 0.3125rem;
+  width: 2.1875rem;
+  height: 2.1875rem;
+}
+
+.social_icons p {
+  font-size: 0.75rem;
+}
+.text{
+  margin-top: 270%;
+  margin-right: 6%;
+  margin-left: 6%;
+  font-family: "Sumsung";
+}
+.oneliner{
+  font-family: "Sumsung";
+}
