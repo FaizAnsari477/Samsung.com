@@ -103,380 +103,179 @@ main {
 
 /* nav_bar styling end*/
 
+/* This section shows group discount and saving */
 
-
-.fast-navigation-item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 50px;
-    width: auto;
-    padding: 0;
-    list-style: none;
-}
-
-.card-list {
-    display: flex;
-
-}
-
-.filter-content {
-    display: flex;
-    justify-content: space-around;
-}
-
-.main-filter {
-    display: flex
-}
-
-.filter {
-    height: 20px;
-    width: 20px;
-}
-
-.filter-item {
-    display: flex;
-}
-
-.chat-support {
-    display: flex;
-}
-
-.chat-icon {
-    height: 20px;
-    width: 20px;
-}
-
-.plus-button {
-    height: 40px;
-    width: 40px;
-}
-
-.equal-button {
-    height: 40px;
-    width: 40px;
-}
-
-.product-selector {
-    display: flex;
-}
-
-.total-product {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-.fast-navigation-cards-list2 {
-    display: flex;
-}
-
-.svg-fast-navigation2 {
-    height: 40px;
-    width: 40px;
-}
-
-.round-checkbox {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: 2px solid #999;
-    outline: none;
-}
-
-.content-best-selling {
-    display: flex;
-    margin-right: 10px;
-}
-
-.card-list-bestseller {
-    display: grid;
-    grid-template-columns: 4;
-    grid-template-rows: 5;
-}
-
-.card-content-bottom-flex {
-    display: flex;
-}
-
-.fast-navigation-buttons2 {
-    display: flex;
-}
-
-.fast-navigation-button2 {
-    border-radius: 50%;
-    padding: 10px 20px;
-    background-color: #7e17b9;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.heading-smart-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.second-heading-smart-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.smart-things-buttons {
-    display: flex;
-    justify-content: space-evenly;
-    justify-content: center;
-    align-items: center;
-}
-
-.third-heading-smart-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.heading-recommended-product {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.color-choose {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-list-recommended {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.color-css-button {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: 2px solid #999;
-    outline: none;
-}
-
-.card-list-buy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.heading-buy {
-    display: flex;
-}
-
-.svg-buy {
-    height: 40px;
-    width: 40px;
-}
-
-.card-list-helpme-choose {
-    display: flex;
-}
-
-.card-heading-reward-right {
-    height: 30px;
-    width: 30px;
-}
-
-.card-list-bestseller {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
-
-.card-item-bestseller {
-    background-color: #ddd;
+.main-container-group-discount {
     padding: 20px;
-    text-align: center;
+    margin: 20px;
 }
 
-.main-banner {
+.heading-group-discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.card-item-group-discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    width: 100%;
 }
 
-.banner-img {
-    width: 100%;
-    display: block;
-}
-
-.banner-content {
+.card-heading-group-discount {
     position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    color: rgb(10, 0, 0);
-    padding: 15px;
-    /* background-color: rgba(255, 255, 255, 0.5); */
-}
-
-.heading-top-seller {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.card-list-topseller {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.card-list-topseller {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
-
-.card-last-section {
-    display: flex;
-    justify-content: start;
-    text-align: left;
-}
-
-.heading-combo-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.mini-heading-combo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.last-heading-combo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.product-selector {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-list-smart-section {
-    display: flex;
-    align-items: center;
-    justify-self: center;
-}
-
-.card-item-buy {
-    width: 700px;
-    height: 220px;
-    padding: 20px;
-    margin: 10px;
-    border: 2px solid black;
-    box-sizing: border-box;
-    border-radius: 20px;
-}
-
-.card-item-helpme-choose {
-    position: relative;
-    display: inline-block;
-}
-
-.buttons-helpme-choose {
-    position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
+    padding: 20px;
+    text-align: left;
+    justify-content: start;
+    z-index: -1;
+}
+
+.card-image-group-discount {
+    z-index: -3;
+}
+
+
+
+.card-button-discount {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: left;
+    justify-content: start;
+}
+
+/* This section ends here */
+
+
+/* This section shows reward and support */
+
+.content-reward {
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
 }
 
 .heading-reward {
     display: flex;
     justify-content: center;
-    text-align: center;
-}
-
-.card-item-reward {
-    width: 700px;
-    height: 220px;
-    padding: 20px;
-    margin: 10px;
-    border: 2px solid black;
-    box-sizing: border-box;
-    border-radius: 20px;
-}
-
-button {
-    border-radius: 10px;
-    height: auto;
-    width: auto;
-    color: black;
-    background-color: white;
-    padding: 2px;
-    margin: 2px;
-}
-
-.card-item-bestseller {
-    border-radius: 20px;
-}
-
-.fast-navigation-list2 {
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-svg {
+.card-item-reward {
+    display: flex;
+    width: 300px; 
+    height: 180px; 
+    background-color: #FFFFFF; 
+    border: 1px solid black; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-heading-reward-left{
+    justify-content: start;
+    align-items: start;
+}
+
+.card-heading-section-reward {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.card-heading-reward-right {
+    justify-content: end;
+    align-items: end;
+}
+
+.card-heading-reward-right {
     height: 40px;
     width: 40px;
 }
 
-.svg-fast-navigation2 {
-    height: 60px;
-    width: 60px;;
-}
+/* This section ends here */
 
-.card-item-topseller {
-    border-radius: 20px;
-}
+/* This section contains bottom banner */
 
-.notification {
+.content-bottom-banner {
+    position: relative;
     display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.bottom-banner-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.content-bottom-banner-written {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: left;
+    justify-content: start;
+}
+
+.button-bottom-banner {
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    color:white;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* This section ends here */
+
+/* This section contains content written */
+
+.content-written {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+}
+
+.paragraph-content-written {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.content-written-list {
+    padding-left: 0;
+    margin-left: 20px;
+
+}
+
+/* This section ends here */
+
+
+
+/* This section contains bottom terms */
+
+.content-bottom-terms {
+    margin: 20px;
+    padding: 60px;
     background-color: #F7F7F7;
-    margin: 8px;
-    padding: 8px;
-}
+    font-size: 14px;
+    justify-content: left;
+    align-items: start;
 
-.list-name {
-    display: inline-block;
-    justify-content: baseline;
 }
+/* This section ends here */
 
-.fast-navigation-container {
-    margin: 10px;
-    padding: 10px;
-    height: 100px;
-    width: 180px;
-}
+
 
 /* Footer */
 /* Service Links */
@@ -553,3 +352,5 @@ svg {
 .social_icons p {
     font-size: 0.75rem;
 }
+
+/* Ends here */
