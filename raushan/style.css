@@ -102,6 +102,128 @@ main {
 
 /* nav_bar styling end*/
 
+/* This section shows combo selector */
+
+.combo-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #F7F7F7;
+}
+
+.main-combo-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.mini-heading-combo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.last-heading-combo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.product-selector{
+    display: flex;
+}
+
+.add-product {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.combo-button {
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.product-box {
+    display: flex;
+    width: 350px;
+    height: 180px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.plus-button {
+    height: 30px;
+    width: 30px;
+}
+
+.equal-button {
+    height: 30px;
+    width: 30px;
+}
+
+.discount-combo {
+    display: inline-block;
+    width: 350px;
+    height: 180px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.discount-combo h3 {
+    display: flex;
+    width: 350px;
+    height: 180px;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.blue-color {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.total-product {
+    display: flex;
+    width: 350px;
+    height: 180px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.upper-left {
+    padding-left: 10px;
+}
+
+.upper-right {
+    padding-right: 10px;
+}
+
+/* This section ends here */
+
 /* This section contains smart things */
 
 .heading-smart-section {
@@ -128,10 +250,6 @@ main {
     outline-color: #2189FF;
 
 }
-.smart-things-buttons .smart-button {
-    outline-style: auto;
-    outline-color: #2189FF;
-}
 
 .smart-thing-button {
     margin: 5px;
@@ -149,6 +267,60 @@ main {
     padding-right: 10px;
 }
 
+.smart-button {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    outline-style: auto;
+    outline-color: #2189FF;
+}
+
+.third-heading-smart-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;;
+}
+
+.card-list-smart-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img-smart-section {
+    margin: 5px;
+}
+
+.card-heading-smart {
+    position: absolute;
+    display: inline-block;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.card-content-smart {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.img-smart-section {
+    cursor: pointer;
+    pointer-events: fill;
+    border-radius: 20px;
+}
 
 
 /* This section ends here */
@@ -211,10 +383,7 @@ main {
     border-radius: 20px;
     color: white;
     background-color: black;
-
-    
 }
-
 
 .card-item-recommended {
     background-color: #F7F7F7;
@@ -242,16 +411,14 @@ main {
     margin: 20px;
 }
 
-.card-content-buy {
-
-}
+.card-content-buy {}
 
 .flex-card-buy {
     display: flex;
-    width: 300px; 
-    height: 180px; 
-    background-color: #FFFFFF; 
-    border: 1px solid black; 
+    width: 300px;
+    height: 180px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -294,6 +461,7 @@ main {
     justify-content: start;
     z-index: -1;
 }
+
 /* This section ends here */
 
 /* This section shows group discount and saving */
@@ -351,7 +519,8 @@ main {
     justify-content: start;
     color: white;
     background-color: black;
-    border-radius: 20px;;
+    border-radius: 20px;
+    ;
 }
 
 /* This section ends here */
@@ -374,15 +543,15 @@ main {
 
 .card-item-reward {
     display: flex;
-    width: 300px; 
-    height: 180px; 
-    background-color: #FFFFFF; 
-    border: 1px solid black; 
+    width: 300px;
+    height: 180px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.card-heading-reward-left{
+.card-heading-reward-left {
     justify-content: start;
     align-items: start;
 }
@@ -390,7 +559,7 @@ main {
 .card-heading-section-reward {
     display: flex;
     justify-content: end;
-    
+
 }
 
 .card-heading-reward-right {
@@ -434,7 +603,7 @@ main {
     border-radius: 10px;
     height: auto;
     width: auto;
-    color:white;
+    color: white;
     background-color: black;
     padding: 5px;
     margin: 5px;
@@ -476,6 +645,7 @@ main {
     align-items: start;
 
 }
+
 /* This section ends here */
 
 
@@ -490,6 +660,7 @@ main {
     border-top: 1px solid #C7C7C7;
     border-bottom: 1px solid #C7C7C7;
 }
+
 .Section {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -498,9 +669,11 @@ main {
     /* border-right: 1px solid #C7C7C7; */
     border-left: 1px solid #C7C7C7;
 }
+
 .Section h3 {
     padding: 0.625rem;
 }
+
 .Section a {
     font-size: 0.875rem;
     margin-bottom: 1.25rem;
@@ -509,27 +682,33 @@ main {
     color: black;
     line-height: 1.875rem;
 }
-.Section a:hover { 
+
+.Section a:hover {
     text-decoration: underline;
     color: #1428A0;
 }
+
 .contact {
     padding: 0.938rem;
     border-bottom: 1px solid #C7C7C7;
 }
+
 .contact span {
     color: #2189FF;
     cursor: pointer;
 }
+
 .contact p {
     font-size: 0.75rem;
 }
+
 .bottom_navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0.938rem;
 }
+
 .bottom_navigation span {
     padding-right: 1.25rem;
     font-weight: bold;
@@ -537,21 +716,25 @@ main {
     color: black;
     border-right: 1px solid #C7C7C7;
 }
+
 .bottom_navigation a {
     color: black;
     margin-left: 1.25rem;
     font-size: 0.75rem;
     text-decoration: none;
 }
+
 .social_icons {
     display: flex;
     align-items: center;
 }
+
 .social_icons img {
     margin-left: 0.313rem;
     width: 2.188rem;
     height: 2.188rem;
 }
+
 .social_icons p {
     font-size: 0.75rem;
 }
