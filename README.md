@@ -20,8 +20,3 @@ Welcome to our thrilling project developed as part of the Full Stack Development
 
 Feel free to explore the UI clone using either method. Due to the organization of our project, each team member's contribution is housed in a separate folder named after them.
 
-## Screen Shots
-
-### Home Page
-
-![Home Page](png2jpg/Image 1.jpg)
