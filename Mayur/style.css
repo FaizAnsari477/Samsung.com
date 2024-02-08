@@ -1,151 +1,487 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family:"Samsung";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SamsungOne', sans-serif;
+  font-family: 'Samsung Sharp Sans', sans-serif;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+@font-face {
+  font-family:"samsung one";
+  src: url(samsungsharpsans-medium.otf);
+}
+@font-face {
+  font-family: "Sumsung";
+  src: url(SamsungOne-400.ttf);
+}
+:root {
+  --dark-gray-color: #484A46;
+  --light-gray-color: #787976;
+  --white-color: #FFFFFF;
+  --light-grey-border-color: #EBE8E8
+}
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
 }
 
-@font-face {
-    font-family:"SamsungOne";
-    src: url(SamsungOne-400.ttf);
+.samsung_logo img {
+  width: 8rem;
+  height: 3rem;
+  margin-right: 4rem;
 }
-@font-face {
-    font-family:"Samsung" ;
-    src: url(samsungsharpsans-medium.otf);
+
+.nav_links {
+  margin-right: 4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  align-items: center;
 }
-nav {
-    display: flex;
-    padding: 0.7% 4%;
-    justify-content: space-between;
-    align-items: center;
+
+.nav_links a {
+  text-decoration:none;
+  color: black;
+  font-weight: 600;
+  margin: 9px;
 }
-.header a{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-weight: 700;
-    font-family:"SamsungOne";
+
+.nav_links a:hover {
+  background-color: black;
+  color: var(--white-color);
+  padding: 7px;
+  border-radius: 25px;
+  font-size: 13px;
 }
-.nav-links{
-    flex: 1;
-    text-align: right;
+
+.support {
+  margin-right: 2.5rem;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 7px;
+  gap: 1rem;
 }
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative; 
+
+.support a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
-.nav-links ul li a{
-color: black;
-text-decoration: none;
-font-size: 16px;
-font-weight: 600;
-border-radius: 3px;
-font-family:"SamsungOne";
+
+.support a:hover {
+  background-color: black;
+  color: var(--white-color);
+  padding: 7px;
+  border-radius: 25px;
+  font-size: 13px;
 }
-.nav-links ul li ::after{
-content:'';
-width: 0%;
-height: 2px;
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.icons .search_icon img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.icons .cart_icon img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.icons .profile_icon img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.Tv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2%;
+}
+.Tv .TV_left h4 {
+  text-decoration: nono solid rgb(0, 0, 0);
+  font-size: 15.1778px;
+  font-weight: 700;
+  line-height: 20.1864px;
+}
+.TVs_list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  margin-left: 30%;
+  margin-right: 2.5%;
+}
+.TVs_list a {
+  text-decoration:none;
+  color: black;
+  font-weight: 600;
+  margin: 9px;
+}
+
+.TVs_list a:hover {
+  background-color: black;
+  color: var(--white-color);
+  padding: 1px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+.template{
+  margin-left: 2.5%;
+}
+.img_text{
+  display: flex;
+  justify-content: space-evenly;
+ margin-top: -20%;
+  padding: 10px;
+  align-items: center; 
+  font-family: "samsung one";
+  font-size: 40px;
+  font-weight: 400;
+}
+.Enjoy{
+  margin-left: 42%;
+  font-size: 14px;
+}
+.buynow{
+  margin-left:43%;
+  font-size: 14px;
+  margin-top: 1%;
+}
+.buynow a {
+  position: absolute;
 background-color: black;
-display: block;
-margin: auto;
-transition: 0.3s;
-}
-
-.nav-links ul li :hover::after{
-    width: 100%;
-}
-.nav-guide:hover::after{
-    background-color: black;
-    text-decoration-color: white;
-}
-header{
-  
-    width: 960px 226px;
-    height: 50vh;
-    text-align: start;
-    background-image: url(Neo\ QLED\ 8K\ Banner.webp);
-    background-size: cover;
-   background-position: center;
-   position: relative;
-   margin-right: 2%;
-   margin-left: 2%;
- 
-}
-
-header h1{
-    font-size: 38px;
-    position: absolute;
-    top: 11%;
-   left: 50%;
-}
-header h4{
-    font-size: 14px;
-    position: absolute;
-    top: 30%;
-   left: 50%;
-   letter-spacing: normal;
-   color: black;
-   font-family:"SamsungOne" ;
-   font-weight: normal;
-}
-header .buy{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    font-family:"SamsungOne" ;
-    font-size: 15px;
-    background-color: black;
-    color: white;
-    padding: 10px 18px;
-    border-radius: 23px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-header .buy:hover{
-    background-color: #5e5e5e;
-}
-.Browse h1{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    padding: 3rem 0;
-    font-size: 31px;
-    letter-spacing: normal;
-    text-align: center;
-    line-height: 42.56px ;
-} 
-.icon{
-    width: 30px;
-    text-align: center;
-}   
-.icon img{
-    height: 15px;
-    margin: 0 50px;
-}
-hr{
-    margin-top: 1.5%;
-    padding:  1.7rem ;
-    height: 0%;     
-}
-.content{
-   text-decoration: none;
-   text-align: start;
-   margin-left: 5%;
-   line-height: normal;
-   letter-spacing: normal;
-   font-size: 8px;
-}
-.tv{
-    text-decoration: none;
-    text-align: center;
-    font-size: 8px;
-    margin-top: -2%;
+color: #FFFFFF;
+padding: 10px 18px;
+border-radius: 20px;
+cursor: pointer;
 
 }
 
+.buynow a:hover {
+  background-color: black;
+  color: var(--white-color); 
+  font-size: 13px;
+}
+.heading{
+  margin-top: 17%;
+  margin-left: 30%;
+  font-weight: 600;
+  padding: 50px;
+  font-family:"samsung one";
+}
+.filter-icon-text {
+  display: flex;
+}
+.left-filters {
+  display: flex;
+  margin-left: 70px;
+  position: relative;
+  top: 20px;
+}
+.filter-text {
+  margin-right: 35px;
+  margin-left: 5px;
+}
+.chat-icon-text {
+  display: flex;
+}
+.online-avail-icon-text {
+  display: flex;
+}
+.right-filters{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.online-avail-icon-text{
+  margin-right: 85px;
+}
+.chat-icon-text{
+  margin-right: 40px;
+}
+.hr{
+  margin-top: 1rem;
+  padding: 4px;
+  padding-bottom: 5%;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 12px;
+  width: 48%;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: solid 1px black;
+}
 
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
 
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
 
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.item {
+  display: flex;
+}
+
+.anchor-price{
+  color:rgb(39, 126, 155);
+}
+.no-cost-emi{
+  text-decoration: underline;
+  color:rgb(37, 152, 235)
+}
+.quick-look-button{
+  background-color: white;
+  border: solid 2px black;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 10%;
+  margin-left: 20%;
+margin-right: -20%;
+font-family: "Sumsung";
+
+}
+.quick-look-button:hover{
+  background-color: rgb(242, 237, 237);
+  cursor: pointer;
+}
+.buy-now-button{
+  background-color:black;
+  color: white;
+  padding:3px;
+  text-align: center;
+  width: 100%;
+  font-family:"samsung one";
+  border-radius: 22px;
+}
+.buy-now-button:hover{
+  opacity:0.6;
+  cursor: pointer;
+
+}
+.learn-more-button{
+  background-color:white;
+  color: black;
+  padding:4px;
+  text-align: center;
+  width: 100%;
+  border-radius: 22px;
+  font-family:"samsung one";
+}
+.learn-more-button:hover{
+  background-color:#f3f0ef;
+  opacity:0.9;
+  cursor: pointer;
+}
+.where-compare-icons{
+  display: flex;
+
+}
+
+.middle-whole-section{
+  display: flex;
+  justify-content: space-between;
+  border:solid -1px;
+  width: 65%;
+  float: right;
+  margin-right: 2%;
+}
+.mid-TV-part{
+  display: flex;
+}
+.left-sidebar{
+  width: 48%;
+  float: left;
+}
+.TV-name{
+  display: flex;
+  margin-left: 70%;
+margin-right: -80%;
+margin-top: 8%;
+font-family: "Sumsung";
+}
+.TV-qualities-ul{
+  display: flex;
+  font-size: 14px;
+  margin-left: 80%;
+margin-right: -80%;
+margin-bottom: 50%;
+margin-top: -40%;
+font-family: "Sumsung";
+}
+.pricing-div-upto-stock{
+  margin-top: 10%;
+  font-family: "Sumsung";
+}
+.buy-now-section-div{
+  margin-top: 30%;
+}
+.where-to-buy{
+  float: left;
+  width: 50%;
+  font-family: "Sumsung";
+}
+.compare{
+  content: "";
+  display: inline;
+  float: right;
+  width: 50%; 
+  font-family: "Sumsung";
+}
+.where-to-buy:hover{
+  background-color:#f3f0ef;
+  opacity:1;
+  cursor: pointer;
+  border-radius: 22px;
+  padding: 0%;
+}
+
+/* Footer */
+/* Service Links */
+
+.service_links {
+  display: flex;
+  font-family: "Sumsung";
+  flex-direction: row;
+  border-top: 0.0625rem solid #C7C7C7;
+  border-bottom: 0.0625rem solid #C7C7C7;
+  margin-right: 6%;
+  margin-left: 6%;
+}
+
+.Section {
+  font-family: "Sumsung";
+  width: 31.25rem;
+  padding: 1.5625rem;
+  /* border-right: 1px solid #C7C7C7; */
+  border-left: 0.0625rem solid #C7C7C7;
+}
+
+.Section h3 {
+  padding: 0.625rem;
+}
+
+.Section a {
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
+  margin: 0.625rem;
+  text-decoration: none;
+  color: black;
+  line-height: 1.875rem;
+}
+
+.Section a:hover {
+  text-decoration: underline;
+  color: #1428A0;
+}
+
+.contact {
+  padding: 0.9375rem;
+  border-bottom: 0.0625rem solid #C7C7C7;
+}
+
+.contact span {
+  color: #2189FF;
+  cursor: pointer;
+}
+
+.contact p {
+  font-size: 0.75rem;
+}
+
+.bottom_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.9375rem;
+}
+
+.bottom_navigation span {
+  padding-right: 1.25rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: black;
+  border-right: 0.0625rem solid #C7C7C7;
+}
+
+.bottom_navigation a {
+  color: black;
+  margin-left: 1.25rem;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+.social_icons {
+  display: flex;
+  align-items: center;
+}
+
+.social_icons img {
+  margin-left: 0.3125rem;
+  width: 2.1875rem;
+  height: 2.1875rem;
+}
+
+.social_icons p {
+  font-size: 0.75rem;
+}
+.text{
+  margin-top: 270%;
+  margin-right: 6%;
+  margin-left: 6%;
+  font-family: "Sumsung";
+}
+.oneliner{
+  font-family: "Sumsung";
+}
