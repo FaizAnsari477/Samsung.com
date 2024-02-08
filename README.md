@@ -1,2 +1,2 @@
 # Samsung.com
-https://faizansari477.github.io/Samsung.com/Faiz/
+[Samsung](https://faizansari477.github.io/Samsung.com/Faiz/)
