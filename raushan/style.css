@@ -21,6 +21,21 @@ h1, h2, h3, h4, h5, h6, p, pre, button, div {
     font-family: 'Oxygen', sans-serif;
 }
 
+.color-selector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-selector .color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
 /* nav_bar styling start */
 
 .nav_bar {
@@ -267,6 +282,8 @@ h1, h2, h3, h4, h5, h6, p, pre, button, div {
 
 /* This section shows bestseller */
 
+
+
 .best-seller-container {
 }
 
@@ -449,11 +466,13 @@ h1, h2, h3, h4, h5, h6, p, pre, button, div {
 .plus-button {
     height: 30px;
     width: 30px;
+    margin-top: 70px;
 }
 
 .equal-button {
     height: 30px;
     width: 30px;
+    margin-top: 70px;
 }
 
 .discount-combo {
@@ -787,7 +806,6 @@ h1, h2, h3, h4, h5, h6, p, pre, button, div {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 20px;
 }
 
 .color-selector-recommended {
