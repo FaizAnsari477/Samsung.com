@@ -17,6 +17,10 @@ main {
     font-family: 'Oxygen', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6, p, pre, button, div {
+    font-family: 'Oxygen', sans-serif;
+}
+
 /* nav_bar styling start */
 
 .nav_bar {
@@ -153,12 +157,16 @@ main {
 .main-banner {
     position: relative;
     display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
 }
 
 .banner-content {
     position: absolute;
     top: 40%;
-    left: 13%;
+    left: 29%;
     transform: translate(-50%, -50%);
     background-color: #F7F7F7;
     padding: 10px;
@@ -194,6 +202,12 @@ main {
 
 /* This section contains top seller */
 
+.whole-content-topseller {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
 .heading-top-seller {
     display: flex;
     justify-content: center;
@@ -203,21 +217,24 @@ main {
 }
 
 .card-list-topseller{
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F7F7F7;
+    background-color: white;
 }
 
 .card-item-topseller {
+    height: 413px;
     margin: 5px;
+    background-color: #F7F7F7;
     border-radius: 20px;
 }
 
 .card-item-topseller h4 {
     display: flex;
     justify-content: start;
-    padding: 20px;;
+    padding: 20px;
 }
 
 .card-item-topseller p {
@@ -226,10 +243,15 @@ main {
     padding: 20px;
 }
 
+.card-image-topseller {
+    border-radius: 20px;
+}
+
 .card-last-section {
     display: flex;
     justify-content: start;
     align-items: start;
+    margin-left: 35px;
 }
 
 .card-last-section p {
@@ -242,12 +264,12 @@ main {
 }
 
 
-
-
-
 /* This section ends here */
 
 /* This section shows bestseller */
+
+.best-seller-container {
+}
 
 .best-seller-heading {
     display: flex;
@@ -284,10 +306,14 @@ main {
 
 .content-best-selling {
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     margin: 10px;
+}
+
+.checkbox-topics{
+    margin-top: -900px;
 }
 
 .round-checkbox {
@@ -300,14 +326,19 @@ main {
     cursor: pointer;
 }
 
+
 .card-list-bestseller {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color: #F7F7F7;
+    margin-left: 25px;
 }
 
 .card-item-bestseller {
-    background-color: white;
+    background-color: #fcfcfc;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .card-content {
@@ -316,10 +347,15 @@ main {
     align-items: center;
 }
 
+.card-content-bottom-flex {
+    display: flex;
+    margin: 5px;
+    margin-top: 10px;
+}
+
 .card-content-bottom-image img{
     height: 20px;
-    width: 20px;
-    
+    width: 20px;    
 }
 
 .bestseller-button {
@@ -440,6 +476,14 @@ main {
     padding-right: 40px;
 }
 
+.add-cart {
+    background-color: #F7F7F7;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
 .blue-color {
     padding-left: 10px;
     padding-right: 10px;
@@ -448,14 +492,40 @@ main {
     justify-content: center;
 }
 
-.total-product {
+.combo-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.total-product {
+    display: inline-block;
+    justify-content: space-around;
     width: 350px;
     height: 180px;
+    padding-left: 10px;
     background-color: #FFFFFF;
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fast-navigation2-container {   
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.fast-navigation2-card-container{
+    margin-top: 10px;
+}
+
+.total-product-design{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 .upper-left {
@@ -464,6 +534,10 @@ main {
 
 .upper-right {
     padding-right: 10px;
+}
+
+.total-price {
+    margin-top: 80px;
 }
 
 .fast-navigation-section2 {
@@ -499,6 +573,9 @@ main {
     background-color: white;
     margin: 5px;
     padding: 5px;
+    border-radius: 20px;
+    height: 509px;
+    width: 229px;
 }
 
 .fast-navigation-card2-image {
@@ -644,6 +721,10 @@ main {
     justify-content: center;
 }
 
+.card-item-smart-section {
+    border-radius: 30px;
+}
+
 .image-container {
     position: relative;
     display: inline-block;
@@ -666,6 +747,8 @@ main {
 
 .card-content-smart {
     position: absolute;
+    display: flex;
+    text-align: center;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);    
@@ -695,16 +778,23 @@ main {
 
 .card-list-recommended {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
 .card-heading-recommended {
+    display: flex;
     justify-content: center;
     text-align: center;
+    margin: 20px;
 }
 
 .color-selector-recommended {
     justify-content: center;
     text-align: center;
+    margin: 20px;
 }
 
 .storage-button-recommended {
@@ -725,11 +815,17 @@ main {
     align-items: center;
 }
 
+.price-recommended h4, p{
+    justify-content: center;
+    align-items: center;
+}
+
 .buy-now-recommended-button {
     display: flex;
     justify-content: center;
+    justify-content: baseline;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .button-recommend-bottom {
@@ -747,6 +843,8 @@ main {
     border-radius: 20px;
     padding: 5px;
     margin: 5px;
+    height: 553px;
+    width: 250px;
 }
 
 /* This section ends here */
@@ -760,16 +858,19 @@ main {
     align-items: center;
     margin: 20px;
     padding:20px;
+    margin-top: 30px;
 }
 .card-list-buy {
     display: flex;
+    justify-content: center;
+    align-self: center;
     padding: 20px;
     margin: 20px;
 }
 
 .heading-buy {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 10px;
 }
 
@@ -788,7 +889,6 @@ main {
 }
 
 .card-content-buy {
-    margin: 10px;
     padding: 10px;
     margin-bottom: 0px;
 }
@@ -800,6 +900,12 @@ main {
 .svg-buy {
     height: 40px;
     width: 40px;
+}
+
+.link-buy a{
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
 }
 
 /* This section ends here */
@@ -817,7 +923,7 @@ main {
 .card-list-helpme-choose {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     margin: 5px;
     padding: 5px;
 }
@@ -867,6 +973,8 @@ main {
 
 .card-list-group-discount {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 98%;
     padding: 20px;
     margin: 20px;
@@ -1004,6 +1112,12 @@ main {
 
 /* This section contains bottom banner */
 
+.bottom-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content-bottom-banner {
     position: relative;
     display: inline-block;
@@ -1012,6 +1126,7 @@ main {
 }
 
 .bottom-banner-img {
+    justify-content: center;
     display: block;
     max-width: 100%;
     height: auto;
@@ -1074,9 +1189,7 @@ main {
     margin-bottom: 0px;
     display: inline-block;
     width: 100%;
-
 }
-
 
 /* This section ends here */
 
