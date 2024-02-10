@@ -10,6 +10,7 @@ The index.html and style.css files in folder Faiz serves as the main landing pag
 ### **Non-Sementic Tags:**
 - `<div>`
 - `<button>`
+- `<video>`
 - `<h1>`
 - `<p>`
 - `<h2>`
@@ -36,3 +37,23 @@ The index.html and style.css files in folder Faiz serves as the main landing pag
 🔧 Browser Dev Tools: Improved proficiency in utilizing browser developer tools for better debugging and optimization.
 
 📏 Relative Units: Recognized the importance of using relative units for creating responsive web pages.
+
+# Screenshots
+
+![Image1](../Faiz/Resources/Home%20Page.png)
+
+![Image2](../Faiz/Resources/Image%202.png)
+
+![Image3](../Faiz/Resources/Image%203.png)
+
+![Image4](../Faiz/Resources/Image%204.png)
+
+![Image5](../Faiz/Resources/Image%205.png)
+
+![Image6](../Faiz/Resources/Image%206.png)
+
+![Image7](../Faiz/Resources/Image%207.png)
+
+![Image8](../Faiz/Resources/Image%208.png)
+
+![Image9](../Faiz/Resources/Image%209.png)
