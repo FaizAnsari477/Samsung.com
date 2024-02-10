@@ -24,7 +24,7 @@ Feel free to explore the UI clone using either method. Due to the organization o
 
 ## Home Page 
 
-![Home Page](./Faiz/Resources/Image%201.png)
+![Home Page](./Faiz/Resources/Home%20Page.png)
 
 ## Shop
 
