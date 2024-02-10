@@ -66,32 +66,32 @@
 
 ## Screenshots
 
-![TV & AV-Section]()
+![TV & AV-Section](./Icons/ss/SS1.png)
 <br>
 <br>
-![TV & AV-Section](./Screenshot)
+![TV & AV-Section](./Icons/ss/SS2.png)
 <br>
 <br>
-![TV & AV-Section](./Screenshot/SS3.jpg)
+![TV & AV-Section](./Icons/ss/SS3.png)
 <br>
 <br>
-![TV & AV-Section](./Screenshot/SS4.jpg)
+![TV & AV-Section](./Icons/ss/SS4.png)
 <br>
 <br>
-![TV & AV-Section](./Screenshot/SS5.jpg)
+![TV & AV-Section](./Icons/ss/SS5.png)
 <br>
 <br>
-![TV & AV-Section](./Screenshot/SS6.jpg)
+![TV & AV-Section](./Icons/ss/SS6.png)
 <br>
 <br>
-![TV & AV-Section](./Screenshot/SS7.jpg)
+![TV & AV-Section](./Icons/ss/SS7.png)
 <br>
 <br>
-![TV & AV-Section](./Screenshot/SS8.jpg)
+![TV & AV-Section](./Icons/ss/SS8.png)
 <br>
 <br>
-![TV & AV-Section](./Screenshot/SS9.jpg)
+![TV & AV-Section](./Icons/ss/SS9.png)
 <br>
 <br>
-![TV & AV-Section](./Screenshot/SS10.jpg)
+![TV & AV-Section](./Icons/ss/SS10.png)
 <br>
