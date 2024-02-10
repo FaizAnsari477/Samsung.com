@@ -20,3 +20,24 @@ Welcome to our thrilling project developed as part of the Full Stack Development
 
 Feel free to explore the UI clone using either method. Due to the organization of our project, each team member's contribution is housed in a separate folder named after them.
 
+# ScreenShots
+
+## Home Page 
+
+![Home Page](./Faiz/Resources/Image%201.png)
+
+## Shop
+
+![Shop](./Faiz/Resources/Shop.png)
+
+## Mobile 
+
+![Mobile](./Faiz/Resources/Mobile.png)
+
+## TV & AV
+
+![TV & AV](./Faiz/Resources/TV%20&%20AV%20Page.png)
+
+## Refrigrator
+
+![Refrigrators](./Faiz/Resources/Refrigrator.png)
