@@ -200,72 +200,8 @@
   border-radius: 50%;
   border: 1px solid black;
 }
-.anchor-price {
-  color: rgb(39, 126, 155);
-}
-.no-cost-emi {
-  text-decoration: underline;
-  color: rgb(37, 152, 235);
-}
-.quick-look-button {
-  background-color: white;
-  border: solid 2px black;
-  padding: 5px;
-  border-radius: 20px;
-}
-.quick-look-button:hover {
-  background-color: rgb(242, 237, 237);
-  cursor: pointer;
-}
-.buy-now-button {
-  background-color: black;
-  color: white;
-  padding: 3px;
-  text-align: center;
-  width: 100%;
-  border-radius: 22px;
-}
-.buy-now-button:hover {
-  opacity: 0.6;
-  cursor: pointer;
-}
-.learn-more-button {
-  background-color: white;
-  color: black;
-  padding: 4px;
-  text-align: center;
-  width: 100%;
-  border-radius: 22px;
-}
-.learn-more-button:hover {
-  background-color: #f3f0ef;
-  opacity: 0.9;
-  cursor: pointer;
-}
-.where-compare-icons {
-  display: flex;
-}
-.main {
-  display: flex;
-}
-.middle-whole-section {
-  display: flex;
-  justify-content: space-between;
-  border: solid;
-}
-.mid-fridge-part {
-  display: flex;
-}
-.left-sidebar {
-  width: 30%;
-}
-.mid-section {
-  width: 70%;
-}
-.blue-text {
-  text-decoration: underline;
-  color: blue;
-}
+
+
 .service_links {
   display: flex;
   font-family: sa;
@@ -405,15 +341,13 @@
   /* font-size: 14px; */
 }
 .template {
-  /* text-align: center; */
+  max-height: 330px;
 }
 .big-text {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 600;
   margin-bottom: 16px;
   color: white;
-}
-.big-text p {
 }
 .buy-now {
   color: black;
@@ -430,19 +364,264 @@
 .whole-text {
   position: relative;
   left: 770px;
-  bottom: 330px;
+  bottom: 300px;
 }
 .swipe-button {
   padding: 7px;
   height: 40px;
   width: 40px;
-  border: solid 1px white;
+  border: solid 0;
   border-radius: 30px;
   text-align: center;
   background-color: rgb(87, 86, 86);
   color: white;
 }
-#left.swipe{
+#left.swipe-button {
   position: relative;
-  bottom: 400px;
+  bottom: 350px;
+  left: 50px;
+}
+#right.swipe-button {
+  position: relative;
+  bottom: 350px;
+  left: 1380px;
+}
+.filter-icon-text {
+  display: flex;
+}
+.left-filters {
+  display: flex;
+  margin-left: 70px;
+  position: relative;
+  top: 20px;
+}
+.filter-text {
+  margin-right: 35px;
+  margin-left: 5px;
+}
+.chat-icon-text {
+  display: flex;
+}
+.Recommended-icon-text {
+  display: flex;
+}
+.right-filters{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Recommended-icon-text{
+  margin-right: 85px;
+}
+.chat-icon-text{
+  margin-right: 40px;
+}
+.below-template-div{
+  padding: 20px;
+}
+.left-sidebar{
+  margin-left: 50px;
+}
+.head-icon{
+  position: relative;
+  left: 300px;
+  bottom: 15px;
+  
+}
+.checks{
+  margin-bottom: 25px;
+}
+.left-sidebar-heading{
+  margin-top: 20px;
+}
+.mid-section{
+  background-color: #f5f3f3;
+}
+.anchor-price {
+  color: rgb(39, 126, 155);
+}
+.no-cost-emi {
+  text-decoration: underline;
+  color: rgb(37, 152, 235);
+}
+.quick-look-button {
+  background-color: white;
+  border: solid 1px black;
+  padding: 7px 9px ;
+  border-radius: 20px;
+}
+.quick-look-button:hover {
+  background-color: rgb(242, 237, 237);
+  cursor: pointer;
+}
+.buy-now-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 310px;
+  border-radius: 22px;
+}
+.buy-now-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.learn-more-button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  width: 310px;
+  border-radius: 22px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.learn-more-button:hover {
+  background-color: #f3f0ef;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.where-compare-icons {
+  display: flex;
+}
+.main {
+  display: flex;
+}
+.middle-whole-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin: 20px;
+  border-radius: 15px;
+  height: 440px;
+}
+.mid-fridge-part {
+  display: flex;
+}
+.left-sidebar {
+  width: 30%;
+}
+.mid-section {
+  width: 70%;
+}
+.blue-text {
+  text-decoration: underline;
+  color: blue;
+}
+.fridge-image{
+  margin-top: 75px;
+  margin-left: 36px;
+}
+.fridge-outlook{
+  text-align: center;
+}
+.quick-button{
+  margin-top: 30px;
+  margin-left: 33px;
+}
+.fridge-details{
+  margin-top: 30px;
+}
+.fridge-name{
+  font-weight: 600;
+}
+.colour-text{
+  font-size: 13px;
+}
+.fridge-qualities-ul{
+  font-size: 14px;
+}
+.mrp{
+  font-size: 14px;
+  margin-top: 24px;
+}
+.anchor-price{
+  margin-top: 2px;
+}
+.discounted-price{
+  margin-top: 5px;
+  font-weight: 600;
+}
+.no-cost-emi{
+  margin-top: 6px;
+  font-size: 12px;
+}
+.fridge-prices{
+  width: 400px;
+}
+.in-stock{
+  margin-top: 6px;
+  }
+.fridge-prices{
+  display: flex;
+  flex-direction: column;
+}
+.buy-now-section-div{
+  position: relative;
+  top: 170px;
+}
+.compare{
+  display: flex;
+}
+.where-compare-icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.where-to-buy{
+  display: flex;
+}
+.view-ji{
+  position: relative;
+  bottom: 80px;
+  left: 450px;
+}
+.view-more-button{
+  padding: 7px 15px;
+  border-radius: 22px;
+  background-color: white;
+
+}
+.faq-text{
+  text-align: center;
+  margin: 25px;
+  margin-bottom: 50px;
+}
+.ques-text{
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #e4e2e2;
+  padding: 20px;
+  margin: 0;
+  
+}
+.ques-symbol-in-corner{
+  position: relative;
+  left: 1410px;
+  bottom: 49px;
+}
+.ans{
+  background-color:#f8f6f6;
+  padding: 30px;
+  margin-top: -39px;
+}
+.faltu-text-div1{
+  margin: 28px 90px;
+  font-size: 12px;
+  text-align: left;
+}
+.t2{
+  margin: 20px 0;
+}
+.faltu-text-div2{
+  text-align: left;
+  margin: 28px 90px;
+  font-size: 12px;
+}
+.t{
+  margin-bottom: 20px;
+}
+.last{
+  margin: 15px;
+}
+.l{
+  margin: 6px;
 }

@@ -180,13 +180,34 @@ cursor: pointer;
   padding: 50px;
   font-family:"samsung one";
 }
-.Filters{
-  width: 50%;
-  padding-left: 5px;
-  
+.filter-icon-text {
+  display: flex;
 }
-.chat{
-  width: 50%;
+.left-filters {
+  display: flex;
+  margin-left: 70px;
+  position: relative;
+  top: 20px;
+}
+.filter-text {
+  margin-right: 35px;
+  margin-left: 5px;
+}
+.chat-icon-text {
+  display: flex;
+}
+.online-avail-icon-text {
+  display: flex;
+}
+.right-filters{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.online-avail-icon-text{
+  margin-right: 85px;
+}
+.chat-icon-text{
+  margin-right: 40px;
 }
 .hr{
   margin-top: 1rem;
