@@ -17,6 +17,10 @@ main {
     font-family: 'Oxygen', sans-serif;
 }
 
+button {
+    cursor: pointer;
+}
+
 h1, h2, h3, h4, h5, h6, p, pre, button, div {
     font-family: 'Oxygen', sans-serif;
 }
@@ -133,6 +137,10 @@ h1, h2, h3, h4, h5, h6, p, pre, button, div {
     margin-bottom: 0;
 }
 
+.notification h5 {
+    cursor: pointer;
+}
+
 /* This section ends here */
 
 /* This section contains fast navigation */
@@ -140,8 +148,6 @@ h1, h2, h3, h4, h5, h6, p, pre, button, div {
 .fast-navigation-container {
     background-color: #F7F7F7;
 }
-
-
 
 .fast-navigation-item {
     display: flex;
@@ -155,6 +161,7 @@ h1, h2, h3, h4, h5, h6, p, pre, button, div {
     flex-direction: column;
     margin: 15px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .navigation-items img {
@@ -571,6 +578,7 @@ h1, h2, h3, h4, h5, h6, p, pre, button, div {
 
 .fast-navigation-item2 {
     display: inline-block;
+    cursor: pointer;
 }
 
 .svg-fast-navigation2 svg{
